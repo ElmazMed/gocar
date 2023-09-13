@@ -17,7 +17,7 @@
                 <div class="col logo">
                     <img src="/images/logo.png" alt="Logo">
                 </div>
-                <div class="col nav">
+                <div class="col nav d-flex align-content-center">
                     <ul class="list-unstyled d-flex">
                         <li><a href="">Home</a></li>
                         <li><a href="">Booking</a></li>
@@ -37,46 +37,37 @@
     </header>
     <div class="billboard">
         <div class="container">
-            <div class="row d-flex justify-content-center">
-                <div class="col">
-                    <div class="texts text-center">
-                        <h1>Find your <span>rental car</span></h1>
-                        <p>We have many best rental car collections.</p>
+            <div class="texts text-center">
+                <h1>Find your <span>rental car</span></h1>
+                <p>We have many best rental car collections.</p>
+            </div>
+            <div class="search-filter">
+                <div class="row">
+                    <div class="col d-flex flex-column">
+                        <span>Vehicle</span>
+                        <select name="" id="">
+                            <option value="">Luxury</option>
+                            <option value="">Sport</option>
+                            <option value="">Sedan</option>
+                        </select>
                     </div>
-                    <div class="search-filter">
-                        <div class="row">
-                            <div class="col"><span>Vehicle type</span></div>
-                            <div class="col"><span>Picking up location</span></div>
-                            <div class="col"><span>Picking up date</span></div>
-                            <div class="col"><span>Returning date</span></div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <select name="" id="">
-                                    <option value="">Luxury</option>
-                                    <option value="">Sport</option>
-                                    <option value="">Sedan</option>
-                                </select>
-                            </div>
-                            <div class="col">
-                                <select name="" id="">
-                                    <option value="">Airport</option>
-                                    <option value="">City</option>
-                                    <option value="">Outside city</option>
-                                </select>
-                            </div>
-                            <div class="col">
-                                <input type="date" value="9/13/2023">
-                            </div>
-                            <div class="col">
-                                <input type="date" value="9/13/2023">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col">
-                                <button>find your car</button>
-                            </div>
-                        </div>
+                    <div class="col d-flex flex-column">
+                        <span>Picking up location</span>
+                        <input type="text" placeholder="Select Car Group">
+                    </div>
+                    <div class="col d-flex flex-column">
+                        <span>Picking up date</span>
+                        <input type="date" value="9/13/2023">
+                    </div>
+                    <div class="col d-flex flex-column">
+                        <span>Returning date</span>
+                        <input type="date" value="9/13/2023">
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="search-btn">find your car</div>
                     </div>
                 </div>
             </div>

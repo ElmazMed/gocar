@@ -21,6 +21,7 @@ header .navigation .user-btns .sign-up {
 }
 .billboard {
     background-color: #F9F9F9;
+    padding: 60px;
 }
 .billboard .texts h1 {
     font-family: 'Kalam', cursive;
@@ -29,7 +30,42 @@ header .navigation .user-btns .sign-up {
 .billboard .texts h1 span {
     color: #94CA21;
 }
+.billboard p {
+    font-family: 'Raleway', sans-serif;
+}
 .billboard .search-filter {
     background-color: #ffffff;
-    padding: 30px;
+    padding: 70px;
+    border-radius: 8px;
+    margin-bottom: -203px;
+    margin-top: 65px;
+}
+.billboard .search-filter .search-btn {
+    background-color: #222222;
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px 0px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+}
+.billboard .search-filter span {
+    font-family: 'Raleway', sans-serif;
+}
+.billboard .search-filter select {
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    border: 1px solid #8f8f8f;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+}
+.billboard .search-filter input {
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    border: 1px solid #8f8f8f;
+    border-radius: 3px;
+    outline: none;
 }
