@@ -1,12 +1,12 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Raleway', sans-serif;
 }
 header .navigation .nav li a {
     margin-right: 30px;
     color: #414141;
     text-decoration: none;
-    font-family: 'Raleway', sans-serif;
 }
 header .navigation .user-btns .login {
     background-color: transparent;
@@ -37,15 +37,13 @@ header .navigation .user-btns .sign-up {
 }
 .billboard .texts h1 span {
     color: #94CA21;
-}
-.billboard p {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'kalam', cursive
 }
 .billboard .search-filter {
     background-color: #ffffff;
     padding: 70px;
     border-radius: 8px;
-    margin-bottom: -203px;
+    margin-bottom: -270px;
     margin-top: 65px;
     position: relative;
 }
@@ -58,16 +56,11 @@ header .navigation .user-btns .sign-up {
     border-radius: 5px;
     margin-top: 20px;
     cursor: pointer;
-    font-family: 'Raleway', sans-serif;
-}
-.billboard .search-filter span {
-    font-family: 'Raleway', sans-serif;
 }
 .billboard .search-filter .select-car, .location, .picking-date, .return-date {
     position: relative;
 }
 .billboard .search-filter select {
-    font-family: 'Raleway', sans-serif;
     padding: 10px;
     border: 1px solid #8f8f8f;
     border-radius: 3px;
@@ -76,7 +69,6 @@ header .navigation .user-btns .sign-up {
     appearance: none;
 }
 .billboard .search-filter input {
-    font-family: 'Raleway', sans-serif;
     padding: 10px;
     border: 1px solid #8f8f8f;
     border-radius: 3px;
@@ -91,4 +83,95 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     top: 39px;
     right: 20px;
     cursor: pointer;
+}
+.rent-process {
+    margin-top: 300px;
+}
+.rent-process .rent-process-title {
+    font-family: 'Kalam', cursive;
+    margin-bottom: 50px;
+}
+.rent-process .rent-process-title span {
+    color: #94CA21;
+    font-family: 'kalam', cursive;
+}
+.rent-process .process-line {
+    height: 70%;
+}
+.rent-process .the-process {
+    margin-top: 30px;
+}
+.rent-process .the-process span{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+}
+.rent-process .the-process p {
+    font-size: 15px;
+}
+.cars {
+    position: relative;
+}
+.cars h1 {
+    font-family: 'kalam', cursive;
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+.cars h1 span {
+    font-family: 'kalam', cursive;
+    color: #94CA21;
+}
+.cars .left-btn, .right-btn {
+    background-color: #ffffff;
+    border-radius: 50%;
+    border: 1px solid #d5d5d5;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    cursor: pointer;
+}
+.cars .left-btn {
+    left: 45px;
+    top: 215px;
+}
+.cars .right-btn {
+    right: 45px;
+    top: 215px;
+}
+.cars .swiper-container  .swiper-wrapper .slide {
+    margin-right: 20px;
+}
+.cars .swiper-container  .swiper-wrapper .slide:last-child {
+    margin-right: 0px;
+}
+.cars .swiper-container  .swiper-wrapper .slide .swiper-card .card-body h2 {
+    font-weight: 600;
+    font-size: 22px;
+}
+.cars .swiper-container  .swiper-wrapper .slide .swiper-card .card-body ul {
+    margin-bottom: 25px;
+}
+.cars .swiper-container  .swiper-wrapper .slide .swiper-card .card-body .price-btn {
+    margin-top: 30px;
+}
+.cars .swiper-container  .swiper-wrapper .slide .swiper-card .card-body .price-btn h3{
+    font-family: 'kalam', cursive;
+}
+.cars .swiper-container  .swiper-wrapper .slide .swiper-card .card-body .price-btn span {
+    font-size: 20px;
+    font-weight: 300;
+}
+.cars .swiper-container  .swiper-wrapper .slide .swiper-card .card-body .price-btn button {
+    background-color: #222222;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: none;
+    padding: 0px 20px;
+    border-radius: 4px;
+    transition: all .5s ease-in-out;
+    font-size: 15px;
+    font-weight: 500;
+}
+.cars .swiper-container  .swiper-wrapper .slide .swiper-card .card-body .price-btn button:hover {
+    background-color: #94CA21;
 }
