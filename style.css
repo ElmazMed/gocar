@@ -111,6 +111,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 .cars {
     position: relative;
+    margin-bottom: 120px;
 }
 .cars h1 {
     font-family: 'kalam', cursive;
@@ -129,6 +130,9 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     width: 50px;
     position: absolute;
     cursor: pointer;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
 }
 .cars .left-btn {
     left: 45px;
@@ -138,40 +142,70 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     right: 45px;
     top: 215px;
 }
-.cars .swiper-container  .swiper-wrapper .slide {
-    margin-right: 20px;
-}
-.cars .swiper-container  .swiper-wrapper .slide:last-child {
-    margin-right: 0px;
-}
-.cars .swiper-container  .swiper-wrapper .slide .swiper-card .card-body h2 {
+.cars  .swiper .swiper-slide .card-body h2{
     font-weight: 600;
     font-size: 22px;
 }
-.cars .swiper-container  .swiper-wrapper .slide .swiper-card .card-body ul {
-    margin-bottom: 25px;
+.cars  .swiper .swiper-slide .card-body ul {
+    margin-bottom: 22px;
 }
-.cars .swiper-container  .swiper-wrapper .slide .swiper-card .card-body .price-btn {
+.cars  .swiper .swiper-slide .card-body .price-btn {
     margin-top: 30px;
 }
-.cars .swiper-container  .swiper-wrapper .slide .swiper-card .card-body .price-btn h3{
+.cars  .swiper .swiper-slide .card-body .price-btn h3{
+    font-weight: 600;
     font-family: 'kalam', cursive;
 }
-.cars .swiper-container  .swiper-wrapper .slide .swiper-card .card-body .price-btn span {
-    font-size: 20px;
-    font-weight: 300;
+.cars  .swiper .swiper-slide .card-body .price-btn span {
+    font-size: 18px;
+    font-weight: 400;
 }
-.cars .swiper-container  .swiper-wrapper .slide .swiper-card .card-body .price-btn button {
+.cars  .swiper .swiper-slide .card-body .price-btn button {
     background-color: #222222;
     color: #ffffff;
-    text-transform: uppercase;
-    border: none;
-    padding: 0px 20px;
+    padding: 0px 17px;
     border-radius: 4px;
-    transition: all .5s ease-in-out;
-    font-size: 15px;
+    text-transform: uppercase;
     font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    transition: all .5s ease-in-out;
+    border: none;
 }
-.cars .swiper-container  .swiper-wrapper .slide .swiper-card .card-body .price-btn button:hover {
+.cars  .swiper .swiper-slide .card-body .price-btn button:hover {
     background-color: #94CA21;
+}
+.testimonials {
+    background-color: #F9F9F9;
+    position: relative;
+}
+.testimonials img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 350px;
+}
+.testimonials .testimonials-swiper {
+    padding: 90px;
+}
+.testimonials .quote-icon svg{
+    color: #94CA21;
+}
+.testimonials p {
+    text-align: center;
+    color: #686868;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+.testimonials h4 {
+    color: #414141;
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.testimonials .testimonials-swiper .swiper-pagination-bullet-active {
+    background-color: #94CA21;
+}
+.testimonials .testimonials-swiper .swiper-button-next, .swiper-button-prev {
+    color: #94CA21;
 }
