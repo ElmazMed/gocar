@@ -178,6 +178,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .testimonials {
     background-color: #F9F9F9;
     position: relative;
+    margin-bottom: 120px;
 }
 .testimonials img {
     position: absolute;
@@ -208,4 +209,69 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 .testimonials .testimonials-swiper .swiper-button-next, .swiper-button-prev {
     color: #94CA21;
+}
+.pricing-plan {
+    background-color: #F9F9F9;
+    margin-bottom: 120px;
+}
+.pricing-plan .pricing-content {
+    padding: 80px;
+}
+.pricing-plan .pricing-content h1 {
+    text-transform: uppercase;
+    font-family: 'kalam', cursive;
+}
+.pricing-plan .pricing-content h1 span {
+    font-family: 'kalam', cursive;
+    color: #94CA21;
+}
+.pricing-plan .pricing-content input {
+    margin: 0px 20px;
+}
+.pricing-plan .pricing-content .pricing-cards {
+    margin-top: 50px;
+}
+.pricing-plan .pricing-content .pricing-cards .offer-card {
+    padding: 50px 30px 300px 30px;
+    border-radius: 20px;
+    background-color: #EDF3E0;
+    position: relative;
+}
+.pricing-plan .pricing-content .pricing-cards .offer-card h2 {
+    font-family: 'kalam', cursive;
+    color: #434343;
+}
+.pricing-plan .pricing-content .pricing-cards .offer-card img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.pricing-plan .pricing-content .pricing-cards .plan-card {
+    padding: 50px 30px;
+    border: 1px solid #d8d6d6;
+    border-radius: 20px;
+}
+.pricing-plan .pricing-content .pricing-cards .plan-card .card-texts span {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.pricing-plan .pricing-content .pricing-cards .plan-card .card-texts h3 {
+    font-family: 'kalam', cursive;
+    margin-bottom: 30px;
+}
+.pricing-plan .pricing-content .pricing-cards .plan-card button {
+    background-color: #222222;
+    color: #ffffff;
+    padding: 7px 15px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    transition: all .5s ease-in-out;
+    border: none;
+    margin-top: 110px;
+}
+.pricing-plan .pricing-content .pricing-cards .plan-card button:hover {
+    background-color: #94CA21;
 }
