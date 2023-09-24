@@ -210,68 +210,157 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .testimonials .testimonials-swiper .swiper-button-next, .swiper-button-prev {
     color: #94CA21;
 }
-.pricing-plan {
-    background-color: #F9F9F9;
+.pricing-plans {
     margin-bottom: 120px;
-}
-.pricing-plan .pricing-content {
     padding: 80px;
 }
-.pricing-plan .pricing-content h1 {
+.pricing-plans h1 {
     text-transform: uppercase;
     font-family: 'kalam', cursive;
+    text-align: center;
 }
-.pricing-plan .pricing-content h1 span {
+.pricing-plans h1 span{
     font-family: 'kalam', cursive;
     color: #94CA21;
 }
-.pricing-plan .pricing-content input {
-    margin: 0px 20px;
+.pricing-plans label {
+    position: relative;
+    height: 25px;
+    width: 60px;
+    cursor: pointer;
 }
-.pricing-plan .pricing-content .pricing-cards {
-    margin-top: 50px;
+.pricing-plans label input {
+    appearance: none;
+    position: relative;
+    z-index: 1;
 }
-.pricing-plan .pricing-content .pricing-cards .offer-card {
+.pricing-plans label .checkbox-style {
+    position: absolute;
+    background-color: #94CA21;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 80px;
+    transition: all ease-in-out .5s;
+}
+.pricing-plans label .checkbox-style i {
+    background-color: #ffffff;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    right: 4px;
+    bottom: 2px;
+    transition: all ease-in-out .5s;
+}
+.pricing-plans input:checked ~ .checkbox-style {
+    background-color: #99cb2e61;
+}
+.pricing-plans input:checked ~ .checkbox-style i {
+    transform: translateX(-30px);
+}
+.pricing-plans .duration-choice {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.pricing-plans .duration-choice span {
+    font-size: 19px;
+}
+.pricing-plans .pricing-offer {
     padding: 50px 30px 300px 30px;
     border-radius: 20px;
     background-color: #EDF3E0;
     position: relative;
 }
-.pricing-plan .pricing-content .pricing-cards .offer-card h2 {
+.pricing-plans .pricing-offer h2 {
     font-family: 'kalam', cursive;
     color: #434343;
+    font-size: 27px;
 }
-.pricing-plan .pricing-content .pricing-cards .offer-card img {
+.pricing-plans .pricing-offer img {
     position: absolute;
-    bottom: 0;
+    bottom: 45px;
     right: 0;
 }
-.pricing-plan .pricing-content .pricing-cards .plan-card {
-    padding: 50px 30px;
+.pricing-plans .pricing-card {
+    padding: 50px 30px 130px 30px;
     border: 1px solid #d8d6d6;
     border-radius: 20px;
+    margin-left: 30px;
+    position: relative;
 }
-.pricing-plan .pricing-content .pricing-cards .plan-card .card-texts span {
+.pricing-plans .pricing-card span {
     text-transform: uppercase;
     font-weight: 700;
+    font-size: 19px;
+    margin-bottom: 10px;
 }
-.pricing-plan .pricing-content .pricing-cards .plan-card .card-texts h3 {
+.pricing-plans .pricing-card .selected-plan {
+    color: #94CA21;
+}
+.pricing-plans .pricing-card h3 {
     font-family: 'kalam', cursive;
     margin-bottom: 30px;
+    font-size: 30px;
 }
-.pricing-plan .pricing-content .pricing-cards .plan-card button {
+.pricing-plans .pricing-card ul li {
+    line-height: 2;
+    font-size: 19px;
+}
+.pricing-plans .pricing-card button {
     background-color: #222222;
     color: #ffffff;
-    padding: 7px 15px;
+    padding: 12px 17px;
     border-radius: 4px;
     text-transform: uppercase;
-    font-weight: 500;
-    font-size: 15px;
+    font-weight: 600;
+    font-size: 17px;
     letter-spacing: 1px;
     transition: all .5s ease-in-out;
     border: none;
-    margin-top: 110px;
+    position: absolute;
+    bottom: 30px;
 }
-.pricing-plan .pricing-content .pricing-cards .plan-card button:hover {
+.pricing-plans .pricing-card .selected-btn {
     background-color: #94CA21;
+}
+.pricing-plans .pricing-card button:hover {
+    background-color: #94CA21;
+}
+/* .why-us {
+    background-color: #F9F9F9;
+    padding: 100px 0;
+} */
+.why-us h1 {
+    font-family: 'kalam', cursive;
+    text-transform: uppercase;
+}
+.why-us h1 span {
+    color: #94CA21;
+    font-family: 'kalam', cursive;
+}
+.why-us .services-container {
+    margin-top: 75px;
+}
+.why-us .services {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: -1px 1px 43px -14px rgba(0,0,0,0.58);
+    -webkit-box-shadow: -1px 1px 43px -14px rgba(0,0,0,0.58);
+    -moz-box-shadow: -1px 1px 43px -14px rgba(0,0,0,0.58);
+}
+.why-us .services svg {
+    color: #94CA21;
+}
+.why-us .services h4 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.why-us .services p {
+    color: #686868;
+    font-size: 15px;
 }
